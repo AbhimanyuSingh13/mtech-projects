@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Cybersecurity Specialist</title>
+    
+
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #333;
+    color: white;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #e8491d;
+}
+
+.project, .job, .school {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover, .job:hover, .school:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #e8491d;
+    box-shadow: 0 0 5px rgba(232, 73, 29, 0.5);
+}
+
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e8491d;
+}
+
+form button:focus {
+    outline: none;
+}
+
+p a {
+    color: #e8491d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #333;
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="your-photo.jpg" alt="Your Name" class="profile-pic">
+            <h1>Your Name</h1>
+            <p>Cybersecurity Specialist | Web Developer | Android Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="container">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a student of M.Tech in Cybersecurity at Silver Oak University. I'm from Rajasthan and currently studying in Ahmedabad, Gujarat. I have certifications like DFE, EHE, and NDE from EC-COUNCIL.</p>
+            <p>In my 7th semester, I completed an internship in Android development for 15 days. In my 8th semester, I created a Pharmacy Management System website using HTML, CSS, JavaScript, and Python with Django.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Pharmacy Management System</h3>
+                <p>Description: A comprehensive system to manage pharmacy operations.</p>
+                <p>Technologies Used: HTML, CSS, JavaScript, Python, Django</p>
+                <a href="link-to-project">View Project</a>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>BrainyBeam Technologies - Android Developer</h3>
+                <p>June 2022 (15 days)</p>
+                <p>Worked on developing and debugging Android applications.</p>
+            </div>
+            <div class="job">
+                <h3>BrainyBeam Technologies - Web Developer</h3>
+                <p>January 2023 - June 2023</p>
+                <p>Developed and maintained web applications using modern web technologies.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="school">
+                <h3>St. Anne's High School</h3>
+                <p>Primary Schooling</p>
+            </div>
+            <div class="school">
+                <h3>ASCENT School of Science</h3>
+                <p>Secondary and Higher Secondary in Science Stream</p>
+            </div>
+            <div class="school">
+                <h3>Silver Oak College, GTU</h3>
+                <p>Bachelor of Engineering</p>
+            </div>
+            <div class="school">
+                <h3>Silver Oak University</h3>
+                <p>M.Tech in Cybersecurity</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p>Connect with me on <a href="your-linkedin-profile">LinkedIn</a>, <a href="your-github-profile">GitHub</a>, <a href="your-twitter-profile">Twitter</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
